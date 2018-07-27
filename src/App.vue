@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SwipeButton
+      ref="swipeButton"
+      class="swipe-button"
+      @actionConfirmed="onActionConfirmed"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import SwipeButton from './SwipeButton.vue';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld,
+    SwipeButton,
+  },
+  methods: {
+    onActionConfirmed() {
+      setTimeout(() => {
+        this.$refs.swipeButton.reset();
+      }, 1000);
+    },
   },
 };
 </script>
@@ -22,7 +32,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
+}
+.swipe-button {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #17255A;
+  border: 1px solid #17255A;
 }
 </style>
