@@ -57,7 +57,7 @@ export default {
 
 ```
 
-## Project setup
+## Project setup for development
 ```
 npm install
 ```
@@ -81,3 +81,12 @@ npm run lint
 ```
 npm run test:unit
 ```
+
+### Build docs 
+```
+npm run build:docs
+in docs/index.html
+make sure the paths don't have '/' at the beginning
+ex: /js/app.js should be js/app.js
+```
+
