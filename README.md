@@ -1,5 +1,8 @@
 # vue-swipe-button
 
+# Demo
+https://tran2.github.io/vue-swipe-button/
+
 # Install
 
 ```

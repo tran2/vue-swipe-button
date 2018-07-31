@@ -191,6 +191,7 @@ export default {
     },
     reset() {
       this.completed = false;
+      this.instructionText = this.initialInstructionText;
       this.sliderClass = '';
       this.updateSlider(0);
       this.updateSlideButton(0);
