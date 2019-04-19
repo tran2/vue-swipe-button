@@ -99,6 +99,7 @@ export default {
       // the action is confirmed
       this.endPoint = this.getEndingPoint();
 
+      // for the overlay
       this.calculateSliderInitialWidth();
       this.calculateSlideButtonInitialPosition();
 
