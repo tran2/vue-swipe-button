@@ -1,6 +1,6 @@
 {
   "name": "vue-swipe-button",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue Swipe Button",
   "homepage": "https://github.com/tran2/vue-swipe-button",
   "main": "dist/swipeButton.common.js",
