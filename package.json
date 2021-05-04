@@ -8,7 +8,7 @@
     "serve": "vue-cli-service serve",
     "build:docs": "vue-cli-service build --dest docs",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit",
+    "test": "echo 'TBD'",
     "build:component": "vue-cli-service build --target lib --name swipeButton src/SwipeButton.vue --dest dist"
   },
   "dependencies": {
@@ -18,7 +18,6 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "^3.12.1",
     "@vue/cli-service": "^4.5.12",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "@vue/test-utils": "^1.0.3",
@@ -69,8 +68,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "jest": {
-    "preset": "@vue/cli-plugin-unit-jest"
-  },
   "license": "MIT"
 }
