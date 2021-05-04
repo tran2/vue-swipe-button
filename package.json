@@ -2,6 +2,7 @@
   "name": "vue-swipe-button",
   "version": "0.1.1",
   "description": "Vue Swipe Button",
+  "homepage": "https://github.com/tran2/vue-swipe-button",
   "main": "dist/swipeButton.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -30,6 +31,9 @@
     "vue-template-compiler": "^2.6.11"
   },
   "author": "trand.tu@gmail.com",
+  "files": [
+    "dist/**"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
