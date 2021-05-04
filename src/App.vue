@@ -26,7 +26,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -37,7 +37,7 @@ export default {
 .swipe-button {
   width: 400px;
   margin: 0 auto;
-  background-color: #17255A;
+  background-color: #e2e3e7;
   border: 1px solid #17255A;
 }
 </style>
