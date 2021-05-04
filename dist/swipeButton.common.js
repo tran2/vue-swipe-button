@@ -87,17 +87,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "4745":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwipeButton_vue_vue_type_style_index_0_id_07844fdc_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cdb1");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwipeButton_vue_vue_type_style_index_0_id_07844fdc_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwipeButton_vue_vue_type_style_index_0_id_07844fdc_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "8875":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -183,7 +172,18 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ "cdb1":
+/***/ "9c97":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwipeButton_vue_vue_type_style_index_0_id_6052811e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f71d");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwipeButton_vue_vue_type_style_index_0_id_6052811e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SwipeButton_vue_vue_type_style_index_0_id_6052811e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
+/***/ "f71d":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
@@ -221,12 +221,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0044f684-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SwipeButton.vue?vue&type=template&id=07844fdc&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{ref:"slider",class:_vm.sliderClass,style:({'color': _vm.textColor}),attrs:{"id":"slider"}},[_c('div',{ref:"overlay",style:([_vm.overlayStyle, {'background-color': _vm.overlayColor}]),attrs:{"id":"overlay"}}),_c('div',{ref:"slideButton",staticClass:"slide-button",style:([{'background-color': _vm.buttonColor}, _vm.slideButtonStyle]),on:{"mousedown":_vm.startSwipe,"mousemove":_vm.continueSwipe,"mouseup":_vm.endSwipe,"touchstart":_vm.startSwipe,"touchmove":_vm.continueSwipe,"touchend":_vm.endSwipe}},[_c('div',{staticClass:"button-text"},[_vm._v(_vm._s(_vm.buttonText))])]),_c('div',{staticClass:"slide-text"},[_vm._v(" "+_vm._s(_vm.instructionText)+" ")])])])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4df55778-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SwipeButton.vue?vue&type=template&id=6052811e&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{style:({'background-color': _vm.sliderBackgroundColor})},[_c('div',{ref:"slider",class:_vm.sliderClass,style:({'color': _vm.textColor}),attrs:{"id":"slider"}},[_c('div',{ref:"overlay",style:([_vm.overlayStyle, {'background-color': _vm.overlayColor}]),attrs:{"id":"overlay"}}),_c('div',{ref:"slideButton",staticClass:"slide-button",style:([{'background-color': _vm.buttonColor}, _vm.slideButtonStyle]),on:{"mousedown":_vm.startSwipe,"mousemove":_vm.continueSwipe,"mouseup":_vm.endSwipe,"touchstart":_vm.startSwipe,"touchmove":_vm.continueSwipe,"touchend":_vm.endSwipe}},[_c('div',{staticClass:"button-text"},[_vm._v(_vm._s(_vm.buttonText))])]),_c('div',{staticClass:"slide-text"},[_vm._v(" "+_vm._s(_vm.instructionText)+" ")])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/SwipeButton.vue?vue&type=template&id=07844fdc&scoped=true&
+// CONCATENATED MODULE: ./src/SwipeButton.vue?vue&type=template&id=6052811e&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/SwipeButton.vue?vue&type=script&lang=js&
 //
@@ -302,7 +302,7 @@ var staticRenderFns = []
       initialMouseX: 0,
       currentMouseX: 0,
       startDrag: false,
-      endPoint: 500,
+      endPoint: 0,
       initialSliderWidth: 0,
       initialSlideButtonPosition: 0,
       instructionText: this.initialInstructionText,
@@ -429,11 +429,15 @@ var staticRenderFns = []
       this.updateSlider(0);
       this.updateSlideButton(0);
       this.slideButtonStyle.left = '0px';
+    },
+    initEndPoint: function initEndPoint() {
+      this.endPoint = this.getEndingPoint();
     }
   },
   mounted: function mounted() {
     document.addEventListener('mousemove', this.continueSwipe);
     document.addEventListener('mouseup', this.endSwipe);
+    this.initEndPoint();
   },
   destroyed: function destroyed() {
     document.removeEventListener('mousemove', this.continueSwipe);
@@ -442,8 +446,8 @@ var staticRenderFns = []
 });
 // CONCATENATED MODULE: ./src/SwipeButton.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_SwipeButtonvue_type_script_lang_js_ = (SwipeButtonvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/SwipeButton.vue?vue&type=style&index=0&id=07844fdc&lang=scss&scoped=true&
-var SwipeButtonvue_type_style_index_0_id_07844fdc_lang_scss_scoped_true_ = __webpack_require__("4745");
+// EXTERNAL MODULE: ./src/SwipeButton.vue?vue&type=style&index=0&id=6052811e&lang=scss&scoped=true&
+var SwipeButtonvue_type_style_index_0_id_6052811e_lang_scss_scoped_true_ = __webpack_require__("9c97");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -560,7 +564,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "07844fdc",
+  "6052811e",
   null
   
 )
