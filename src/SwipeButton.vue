@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :style="{'background-color': sliderBackgroundColor}">
     <div
       id="slider"
       ref="slider"
