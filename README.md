@@ -17,7 +17,7 @@ import SwipeButton from 'vue-swipe-button'
 import 'vue-swipe-button/dist/swipeButton.css'
 ```
 
-Sample:
+Sample usage:
 
 ```javascript
 <template>
@@ -85,7 +85,7 @@ npm run lint
 npm run test:unit
 ```
 
-### Build docs 
+### Build docs
 ```
 npm run build:docs
 in docs/index.html

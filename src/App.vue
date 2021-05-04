@@ -37,7 +37,7 @@ export default {
 .swipe-button {
   width: 400px;
   margin: 0 auto;
-  background-color: #e2e3e7;
+  background-color: #17255A;
   border: 1px solid #17255A;
 }
 </style>
