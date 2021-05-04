@@ -73,7 +73,7 @@ export default {
       initialMouseX: 0,
       currentMouseX: 0,
       startDrag: false,
-      endPoint: 500,
+      endPoint: 0,
       initialSliderWidth: 0,
       initialSlideButtonPosition: 0,
       instructionText: this.initialInstructionText,
@@ -197,10 +197,14 @@ export default {
       this.updateSlideButton(0);
       this.slideButtonStyle.left = '0px';
     },
+    initEndPoint() {
+      this.endPoint = this.getEndingPoint();
+    },
   },
   mounted() {
     document.addEventListener('mousemove', this.continueSwipe);
     document.addEventListener('mouseup', this.endSwipe);
+    this.initEndPoint();
   },
   destroyed() {
     document.removeEventListener('mousemove', this.continueSwipe);
